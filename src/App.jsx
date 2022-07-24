@@ -12,6 +12,10 @@ const routes = [
     component: lazy(() => import("./views/About")),
   },
   {
+    path: "/examples",
+    component: lazy(() => import("./views/examples/Examples")),
+  },
+  {
     path: "/testing/:id",
     component: lazy(() => import("./views/Testing")),
   },
